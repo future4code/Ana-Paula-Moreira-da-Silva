@@ -1,0 +1,22 @@
+a:visited {
+    color: blueviolet;
+
+}
+
+p {
+    color: hotpink;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}   
+
+tr {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+p {
+    color: hotpink;
+    font-size:50px;
+    text-align:center;
+  }
+  
+  h2 {
+     color: blue;
+  
+  }
+  
+  a:visited {
+      color: blueviolet;
+  
+  }
+  
+   label {
+      color:blue;
+      font-size: 30px;
+  }
+  
+  button {
+      color: red;
+      font-size: 30px;
+  }
