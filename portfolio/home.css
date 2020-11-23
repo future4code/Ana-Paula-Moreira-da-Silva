@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+body{
+    font-family: Arial;
+    background: url("fundo1.jpg");
+    background-size: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 40px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+nav{
+    background-color: gray ;
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translate(350px);
+}
+
+ul{
+
+   top: 50px;
+   position: absolute;
+   width: 100%;
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color:white
+}
+a:hover{
+    background-color:  rgb(176,224,230);
+    color:black
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+   
+h1,h2,h3{
+    text-align: center;
+    color: black
+}
+
+p{
+    text-align: center;
+}
+ 
+    

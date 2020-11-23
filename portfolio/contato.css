@@ -1,0 +1,22 @@
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+img {
+    display: inline-block;
+    height: 40px; 
+    width: 40px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+   
+    font-size: large;
+}
