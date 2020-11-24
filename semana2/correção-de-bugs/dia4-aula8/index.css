@@ -27,6 +27,7 @@ button:focus {
 
 img {
     width: 100px;
+
 }
 
 div>p:first-child {
@@ -110,11 +111,36 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    border: none;
+    box-shadow: 2px 2px 0 1px grey;
+    
 }
+
+
+    
 
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    border-radius: 10px;
+    font-family: fantasy ;
+    
+}
+
+td{
+    font-size: large;
+    color: black;
+    font-style: normal;
+    font-family: fantasy
+}
+
+   
+   
+table{
+    text-align: center;
+}
+input{
+    border-radius: 0.5em;
 }
 
 
