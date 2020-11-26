@@ -1,0 +1,119 @@
+#água {
+    grid-column-start: 3;
+   }
+   
+   
+   
+   #Poção {
+   grid-column-start:5;
+   }
+   
+   #água {
+   grid-column-end:4;
+   }
+   
+   #água {
+   grid-column-end: 2;
+   }
+   
+   #água {
+     grid-column-end: -2
+   }
+   
+   #Poção {
+   grid-column-start: 4;
+   }
+   
+   #água {
+   grid-column-end: span 2;
+   }
+   
+   #água {
+   grid-column-end: span 5;
+   }
+   
+   #água {
+   grid-column-start: 3;
+   }
+   
+   #água {
+   grid-column: 4 /6 ;
+   }
+   
+   #água {
+   grid-column:2/5
+   }
+   
+   #água {
+   grid-row-start: 3
+   }
+   
+   #água {
+   grid-row: 3/6
+   }
+   #Poção {
+   grid-row: 5;
+   grid-column: 2;
+   }
+   
+   #água {
+   grid-column: 2/6;
+   grid-row: 1/6
+   }
+   
+   #água {
+   grid-area: 1 / 2 / 4/ 6;
+   }
+   
+   #água {
+   grid-area: 2/3/5/6
+   }
+   
+   #Poção {
+   order: 5
+   }
+   
+   .Poção {
+   order: -1
+   }
+   
+   #garden {
+     display: grade;
+     grid-template-columns:50%
+   }
+   
+   #garden {
+     display: grade;
+    grid-template-columns: repeat(8,12.5%)
+   }
+   
+   #garden {
+     display: grade;
+   grid-template-columns: 1fr 5fr;
+     grid-template-rows: 20% 20% 20% 20% 20%;
+   }
+   
+   #garden {
+     display: grade;
+   grid-template-columns:50px 1fr 1fr 1fr 50px
+   }
+   
+   #garden {
+     display: grade;
+   grid-template-columns:75px 3fr 2fr
+   }
+   
+   #garden {
+     display: grade;
+     grid-template-rows: 20px 10px 10px 10px 
+   }
+   
+   #garden {
+     display: grade;
+   grid-template: 60%/200px
+   }
+   
+   #garden {
+     display: grade;
+   grid-template: 1fr 50px/20% 80%
+   }
