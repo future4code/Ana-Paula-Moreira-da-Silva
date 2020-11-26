@@ -31,16 +31,61 @@ div {
 
 }
 
-.green-block3{
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: auto;
+.yellow-block2{
+    background-color: blueviolet; 
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
 }
 
+.green-block3{
+    background-color: gray;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
 
+.blue-block2{
+    background-color:  hotpink;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;  
+}
+
+.yellow-block3{
+    background-color: blueviolet;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.green-block4{
+    background-color: gray;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.black-block{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.white-block{
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; 
+}
 #first-block {
     background-color: red;
 }
