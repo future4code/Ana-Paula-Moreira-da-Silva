@@ -1,0 +1,112 @@
+body {
+    
+    padding: 0;
+    margin: 0;
+    
+}
+
+div {
+    border: 1px solid black;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
+}
+#first-block{
+    background-color: red;
+    height: 60px;
+}
+.blue-block1{
+    background-color: hotpink; 
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    
+
+}
+
+.yellow-block2{
+    background-color: blueviolet; 
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.green-block3{
+    background-color: gray;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.blue-block2{
+    background-color:  hotpink;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;  
+}
+
+.yellow-block3{
+    background-color: blueviolet;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.green-block4{
+    background-color: gray;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.black-block{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    text-align: center; 
+}
+
+.white-block{
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; 
+}
+#first-block {
+    background-color: red;
+}
+
+.blue-block {
+    background-color: blue;
+}
+
+.yellow-block {
+    background-color: yellow;
+}
+
+.green-block {
+    background-color: green;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+}
+
+.white-block {
+    background-color: white;
+}
