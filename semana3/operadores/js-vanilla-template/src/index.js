@@ -1,4 +1,4 @@
-false
+/*false
 false
 true
 boolean
@@ -26,5 +26,5 @@ console.log("A diferença de idade sua e da sua amiga e de:", resultado3,"anos")
 28
 25
 Sua idade e maior que a da sua amiga? tru
-Sua idade e maior que a da sua amiga? false
+Sua idade e maior que a da sua amiga? false*/
 
