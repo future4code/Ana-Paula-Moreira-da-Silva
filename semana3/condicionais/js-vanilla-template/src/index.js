@@ -1,6 +1,9 @@
+/*EXERCICIO1
+1- Solicita que o usuario digite um numero
+2 - transforma a string , recebida em numero
+3- se o numero dogitado for par ele passou no teste/se for não for par, ele nao passa no teste.
 
 /*EXERCICIO2
-
 
 a)Para determinar o valor da fruta indicada
 b)O preço da fruta, maçã, é R$ 2,25
@@ -23,7 +26,46 @@ console.log("Ela pode dirigir")
     console.log("Ela nao pode dirigir")
 }*/
 
+let turno = prompt("Qual turno estuda? M (matutino) ou V (Vespertino) ou N (Noturno)")
+let resposta = "V"
+let resposta1 = "M"
+let resposta2 = "N"
+if(turno === 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    ) 
 
 
 
