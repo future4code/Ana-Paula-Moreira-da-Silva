@@ -26,12 +26,12 @@ console.log("Ela pode dirigir")
     console.log("Ela nao pode dirigir")
 }*/
 
-let turno = prompt("Qual turno estuda? M (matutino) ou V (Vespertino) ou N (Noturno)")
-let resposta = "V"
-let resposta1 = "M"
-let resposta2 = "N"
-if(turno === 
 
+
+/*const meuArray = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+
+meuArray.push(16)
+console.log(meuArray)*/
 
 
 
@@ -65,7 +65,7 @@ if(turno ===
     
     
     
-    ) 
+    
 
 
 
