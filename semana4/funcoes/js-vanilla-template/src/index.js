@@ -83,7 +83,7 @@ soma1(primeiro, segundo, terceiro, quarto)*/
   console.log(array2.length)*/
 
   const numeros = [25,12,55,64,121,44,11,84,51,48,14,73,111,283,1,99,13,31,83,131,1,1.1,-10,25,1590];
-  
+
   let numero1 = Infinity;
   let numero2 = 0;
 
@@ -99,3 +99,7 @@ soma1(primeiro, segundo, terceiro, quarto)*/
 
   console.log(numero1);
   console.log(numero2);
+
+
+
+ 
