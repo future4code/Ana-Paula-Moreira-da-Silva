@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+.tag-mae {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .tag-mae {
+        background-color: blue;
+    }
+}
