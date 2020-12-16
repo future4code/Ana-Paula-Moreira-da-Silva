@@ -54,11 +54,3 @@ soma1(primeiro, segundo, terceiro, quarto)*/
  const quantidade2 = meuArray(arrayDeNumero)
   console.log("quantidade: ", quantidade2)*/
 
-  const pokemons = [
-      {nome: 'Bulbasaur', tipo: 'grama'},
-      {nome: 'Chamander', tipo: 'fogo'},
-      {nome: 'Squirtle', tipo: 'agua'}
-  ]
- for (const pkmn of pokemons) {
-     console.log(`${pkmn.nome} é de ${pkmn.tipo}`)
- }
