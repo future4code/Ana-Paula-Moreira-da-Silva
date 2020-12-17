@@ -26,3 +26,4 @@ export class SecaoComentario extends Component {
 		</div>
 	}
 }
+
