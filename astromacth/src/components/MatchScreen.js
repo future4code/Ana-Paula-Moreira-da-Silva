@@ -8,6 +8,7 @@ import { MatchConteiner, MatchProfiles, HeaderMatch, BackButton,
 import BackHome from './imagens/back-button.png'
 import Logo from './imagens/logo.png'
 import DeleteButton from './imagens/delete-user.png'
+import Lottie from 'react-lottie';
 
 
 
@@ -48,7 +49,7 @@ function MatchScreen(props) {
   const defaultOptions = {
     loop: true,
     autoplay: true, 
-    animationData: animationData,
+    
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
     }

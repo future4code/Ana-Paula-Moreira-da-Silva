@@ -40,8 +40,11 @@ export const BackButton = styled.img`
    &:hover {
       transform: scale(1.3);
    }
-   width: 9%;
-   margin-top: 1vh; 
+   width: 60px;
+   margin-top: 4%;
+   border-radius:20px;
+   height: 50px;
+   
 `
 
 export const LogoMatch = styled.img`
@@ -59,9 +62,10 @@ export const DeleteMatch = styled.img`
    &:hover {
       transform: scale(1.3);
    }
-   width: 32px;
-   margin-top: 2%;
-   margin-right: 3%;
+   width: 40px;
+   margin-top: 4%;
+   margin-right: 2%;
+   border-radius:50px;
    @media screen and (max-width:500px) {
       width: 31px;
    }

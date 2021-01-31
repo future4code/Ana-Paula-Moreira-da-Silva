@@ -11,7 +11,7 @@ import MatchEffect from './imagens/accept.png'
 import MatchList from './imagens/match-list.png'
 import Logo from './imagens/logo.png'
 import Lottie from 'react-lottie';
-import animationData from '../../Animation/animation.json'
+import animationData from './Animation/animation.json'
 
 
 

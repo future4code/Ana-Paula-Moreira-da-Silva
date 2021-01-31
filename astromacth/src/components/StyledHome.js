@@ -15,7 +15,7 @@ export const ContentScreen = styled.div`
    height: 95vh;
    border: 1px solid black;
    margin-bottom: 0;
-   border-radius: 2%;
+   border-radius: 6%;
    @media screen and (max-width:500px) {
       width: 95vw;
       border-radius: 4%;
@@ -68,7 +68,7 @@ export const ProfileConteiner = styled.main`
    text-shadow: 2px 1px 1px black;
    width: 22vw;
    max-height: 64vh;
-   border-radius: 2%;
+   border-radius: 10%;
    margin-left: 6%;
    margin-top: 5%;
    display: flex;
@@ -80,7 +80,7 @@ export const ProfileConteiner = styled.main`
 export const ImageProfile = styled.img`
    width: 22vw;
    height: 64vh;
-   border-radius: 2%;
+   border-radius: 6%;
    @media screen and (max-width:500px){
       width: 85vw;
    }
@@ -114,6 +114,7 @@ export const BioProfile = styled.p`
    line-height: 24px;
    margin-left: 1%;
    margin-top: 24%;
+   border-radius: 50px;
    @media screen and (max-width:500px) {
       font-size: 16px;
       margin-top: 52vh;
@@ -134,7 +135,8 @@ export const NoMatch = styled.img`
    }
    width: 14%;
    margin-top: 9%;
-   margin-right: 20%;
+   margin-right: 25%;
+   border-radius: 50px;
    @media screen and (max-width:500px) {
       width: 14%;
       margin-top: 10%;
@@ -145,9 +147,11 @@ export const Match = styled.img`
    cursor: pointer;
    &:hover {
      transform: scale(1.3);
+    
    }
    width: 14%;
    margin-top: 9%;
+   border-radius: 50px;
    @media screen and (max-width:500px) {
       width: 14%;
       margin-top: 10%;
