@@ -9,6 +9,7 @@ export const HomeContainer = styled.div`
    margin: 0;
    padding-bottom: 0;
    
+   
 `
 
 export const MainContainer = styled.main`
@@ -16,6 +17,7 @@ export const MainContainer = styled.main`
    padding-top: 4%;
    padding-left: 5%;
    height: 65vh;
+   background-color: black;
 `
 
 export const AnimationContainer = styled.div`
@@ -25,7 +27,7 @@ export const AnimationContainer = styled.div`
 `
 
 export const Message = styled.h1`
-   color: ${mainGray};
+   color: #DAA520;
 `
 
 export const ButtonSignUp = styled.button`

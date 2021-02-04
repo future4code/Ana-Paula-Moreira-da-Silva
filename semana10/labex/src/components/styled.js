@@ -27,7 +27,7 @@ export const HeaderContainer = styled.header`
    background-color: black;
    color: black;
    width: 100%;
-   height: 30vh;
+   height: 11vh;
 `
 
 export const Logo = styled.img`
@@ -64,9 +64,9 @@ export const FooterContainer = styled.footer`
 `
 
 export const IconsSocial = styled.img`
-   width: 60px;
-   margin-top: 2%;
-   margin-right: 1%;
+   width: auto; 
+   margin-top: 1%;
+   margin-right: 0%;
    margin-left: 0%;
    background-color: black;
 `

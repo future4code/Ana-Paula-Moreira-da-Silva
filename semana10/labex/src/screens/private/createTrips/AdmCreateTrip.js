@@ -79,7 +79,7 @@ function CreateTripPage() {
                     placeholder={'Data'}
                     name={'date'}
                     type={'date'}
-                    min={'2020-11-19'}
+                    min={'2021-04-20'}
                     required
                 />
                 <br/>

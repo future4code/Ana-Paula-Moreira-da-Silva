@@ -10,8 +10,8 @@ export const ButtonRegister= styled.button`
    width: 10vw;
    padding: 8px;
    margin-top: 12px;
-   background-color: ${mainDarkOrange};
-   color: ${mainWhite};
+   background-color: #DAA520;
+   color: black;
    border-radius: 6px;
    border: 0;
 `
@@ -22,10 +22,10 @@ export const ButtonLogin = styled.button`
    width: 12vw;
    padding: 10px;
    margin-top: 2%;
-   background-color: ${mainBlue};
-   border-color: ${mainBlue};
+   background-color: #DAA520;
+   border-color: #DAA520;
    border-style: solid;
-   color: ${mainWhite};
+   color: black;
    border-radius: 6px;
 `
 
@@ -35,8 +35,8 @@ export const ButtonAdm = styled.button`
    width: 8vw;
    padding: 10px;
    margin-left: 4%;
-   background-color: ${mainOrange};
-   color: ${mainWhite};
+   background-color: #DAA520;
+   color: black;
    border-radius: 6px;
    border: 0;
 `
@@ -47,8 +47,8 @@ export const ButtonLogout = styled.button`
    width: 8vw;
    padding: 15px;
    margin-right: 0%;
-   background-color: ${mainRed};
-   color: ${mainWhite};
+   background-color: #DAA520;
+   color: black;
    border-radius: 6px;
    border: 0;
 `
@@ -59,8 +59,8 @@ export const ButtonCreateTrip = styled.button`
    width: 12vw;
    padding: 8px;
    margin-right: 15px;
-   background-color: ${mainOrange};
-   color: ${mainWhite};
+   background-color: #DAA520;
+   color: black;
    border-radius: 6px;
    border: 0;
 `
@@ -71,10 +71,10 @@ export const ButtonSaveTrip = styled.button`
    width: 12vw;
    padding: 10px;
    margin-top: 2%;
-   background-color: ${mainBlue};
-   border-color: ${mainBlue};
+   background-color: #DAA520;
+   border-color: #DAA520;
    border-style: solid;
-   color: ${mainWhite};
+   color: black;
    border-radius: 6px;
 `
 
@@ -84,8 +84,8 @@ export const ButtonRegisterLogin = styled.button`
    width: 12vw;
    padding: 8px;
    margin-right: 15px;
-   background-color: ${mainOrange};
-   color: ${mainWhite};
+   background-color: #DAA520;
+   color: black;
    border-radius: 6px;
    border: 0;
 `
@@ -96,10 +96,10 @@ export const ButtonSaveLogin = styled.button`
    width: 12vw;
    padding: 10px;
    margin-top: 2%;
-   background-color: ${mainBlue};
-   border-color: ${mainBlue};
+   background-color: #DAA520;
+   border-color: #DAA520;
    border-style: solid;
-   color: ${mainWhite};
+   color: black;
    border-radius: 6px;
 `
 
@@ -110,10 +110,10 @@ export const ButtonDetails = styled.button`
    padding: 6px;
    margin-right: 8px;
    margin-top: 15px;
-   background-color: ${mainLightBlue};
-   border-color: ${mainBlue};
+   background-color:#DAA520;
+   border-color:#DAA520 ;
    border-style: solid;
-   color: ${mainBlue};
+   color: black;
    border-radius: 6px;
 `
 
@@ -122,10 +122,10 @@ export const ButtonDelete = styled.button`
    font-size: 12px;
    width: 8vw;
    padding: 6px;
-   background-color: ${mainBlue};
-   border-color: ${mainBlue};
+   background-color: #DAA520;
+   border-color: #DAA520;
    border-style: solid;
-   color: ${mainWhite};
+   color: black;
    border-radius: 6px;
 `
 
@@ -134,10 +134,10 @@ export const ButtonAcceptedCandidate = styled.button`
    font-size: 12px;
    width: 8vw;
    padding: 6px;
-   background-color: ${mainBlue};
+   background-color: #DAA520;
    margin-right: 4%;
    border: 0;
-   color: ${mainWhite};
+   color: black;
    border-radius: 5px;
 `
 
@@ -146,9 +146,9 @@ export const ButtonDeleteCandidate = styled.button`
    font-size: 12px;
    width: 8vw;
    padding: 6px;
-   background-color: ${mainDarkOrange};
+   background-color: #DAA520;
    border: 0;
-   color: ${mainWhite};
+   color: black;
    border-radius: 5px;
 `
 
@@ -158,9 +158,9 @@ export const ButtonSubmit = styled.button`
    width: 12vw;
    padding: 10px;
    margin-top: 2%;
-   background-color: ${mainBlue};
-   border-color: ${mainBlue};
+   background-color: #DAA520;
+   border-color: #DAA520;
    border-style: solid;
-   color: ${mainWhite};
+   color: black;
    border-radius: 6px;
 `

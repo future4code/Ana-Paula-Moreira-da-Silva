@@ -10,6 +10,7 @@ import AdmCreateTrip from '../screens/private/createTrips/AdmCreateTrip'
 import AdmSingUp from '../screens/private/singUp/AdmSingUp'
 import AdmHeader from '../components/AdmHeader'
 import Footer from '../components/Footer'
+
 function Router() {
   return (
     <BrowserRouter>

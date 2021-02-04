@@ -2,7 +2,7 @@ import { TripsTitle, ListContainer, TripsContainer, NameTrip, InfoTrip } from '.
 import { ButtonRegister } from '../../../functional/buttons'
 import  { useRequestData }  from '../../../Use/useRequestData'
 import  Header  from '../../../components/Header'
-import  Footer  from '../../../components/Footer'
+
 import { useHistory } from 'react-router-dom'
 
 
@@ -21,6 +21,7 @@ function ListTripsPage() {
     return (
         <div>
             <Header/>
+           
             <TripsTitle>Viagens disponíveis:</TripsTitle>
             <ListContainer key={getTrips.id}>
                 {getTrips.map(trip => {
@@ -46,7 +47,7 @@ function ListTripsPage() {
                     )
                 })}
             </ListContainer>
-            <Footer/>
+            
         </div>
     )
 }

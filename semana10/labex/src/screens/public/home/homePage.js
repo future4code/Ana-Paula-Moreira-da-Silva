@@ -4,6 +4,7 @@ import  Header  from '../../../components/Header'
 import  Footer  from '../../../components/Footer'
 import Lottie from 'react-lottie';
 import animationData from '../../../animation/animação.json'
+import Imagem from '../../../images/imagem/espacial.jpg'
 
 
 
@@ -26,15 +27,20 @@ function HomePage(){
     return (
         <HomeContainer>
            <Header/>
-               <MainContainer>
+           
+           <MainContainer>
+                   
                    <AnimationContainer>
+                   
                         <Lottie options={defaultOptions}
                         height={250}
                         width={250}
                         isStopped={animationState.isStopped}
                         isPaused={animationState.isPaused}
+                        
                     />
                     </AnimationContainer>
+                   
                     <Message>Escolhemos ir para<br/> a lua não porque é facil, 
                         mas porque é dificil!</Message>
                </MainContainer>

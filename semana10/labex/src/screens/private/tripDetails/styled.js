@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { mainLightBlue, mainGray } from '../../../functional/color'
+
 
 
 
@@ -16,14 +16,14 @@ export const DetailsTrip = styled.div`
 `
 
 export const TitlePage = styled.h2`
-  color: ${mainGray};
+  color: black;
   text-align: center;
   margin-top: 3%;
   margin-bottom: 3%;
 `
 
 export const Candidates = styled.div`
-  background-color: ${mainLightBlue};
+  background-color: lightblue;
   overflow: auto;
   padding-bottom: 5%;
   width: 40vw;
@@ -32,7 +32,7 @@ export const Candidates = styled.div`
 `
 
 export const AcceptedCandidates = styled.div`
-  background-color: ${mainLightBlue};
+  background-color: lightblue;
   overflow: auto;
   padding-bottom: 5%;
   width: 40vw;
