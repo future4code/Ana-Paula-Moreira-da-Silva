@@ -8,6 +8,7 @@ export const HomeContainer = styled.div`
    display: inline;
    margin: 0;
    padding-bottom: 0;
+   
 `
 
 export const MainContainer = styled.main`
@@ -20,6 +21,7 @@ export const MainContainer = styled.main`
 export const AnimationContainer = styled.div`
    margin-top: 0%;
    margin-bottom: 0%;
+  
 `
 
 export const Message = styled.h1`

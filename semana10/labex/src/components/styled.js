@@ -1,22 +1,21 @@
 import styled from 'styled-components'
-import { mainBlue, mainWhite } from '../functional/color'
 import { Link } from 'react-router-dom'
 
 
 // Styled AdmHeader
 export const AdmHeaderContainer = styled.header`
    font-family: 'Roboto', sans-serif;
-   background-color: ${mainBlue};
-   color: white;
+   background-color: black;
+   color: black;
    width: 100%;
    height: 16vh;
 `
 
 export const AdmLogo = styled.img`
-   width: 130px;
+   width: 100px;
    margin-left: 2%;
    margin-right: 50%;
-   margin-top: 10px;
+   margin-top: 0px;
    padding-bottom: 5px;
 `
 
@@ -25,10 +24,10 @@ export const AdmLogo = styled.img`
 // Styled Header
 export const HeaderContainer = styled.header`
    font-family: 'Roboto', sans-serif;
-   background-color: ${mainBlue};
-   color: white;
+   background-color: black;
+   color: black;
    width: 100%;
-   height: 15vh;
+   height: 30vh;
 `
 
 export const Logo = styled.img`
@@ -48,25 +47,26 @@ export const Menu = styled(Link)`
    }
    font-size: 16px;
    margin-left: 4%;
-   color: ${mainWhite};
+   color:#DAA520;
 `
 
 
 
 // Styled Footer
 export const FooterContainer = styled.footer`
-   background-color: ${mainBlue};
-   color: white;
+   background-color: black;
+   color: black;
    width: 100%;
-   height: 14vh;
+   height: 16vh;
    display: flex;
    justify-content: center;
    position: absolute;
 `
 
 export const IconsSocial = styled.img`
-   width: 40px;
+   width: 60px;
    margin-top: 2%;
    margin-right: 1%;
-   margin-left: 2%;
+   margin-left: 0%;
+   background-color: black;
 `

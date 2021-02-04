@@ -35,7 +35,8 @@ function HomePage(){
                         isPaused={animationState.isPaused}
                     />
                     </AnimationContainer>
-                    <Message>Embarque conosco nessa aventura!</Message>
+                    <Message>Escolhemos ir para<br/> a lua não porque é facil, 
+                        mas porque é dificil!</Message>
                </MainContainer>
            <Footer />
         </HomeContainer>
