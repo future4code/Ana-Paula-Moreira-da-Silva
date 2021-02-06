@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import Toolbar from "@material-ui/core/Toolbar";
 
 
 // Styled AdmHeader
@@ -52,21 +53,38 @@ export const Menu = styled(Link)`
 
 
 
-// Styled Footer
-export const FooterContainer = styled.footer`
-   background-color: black;
-   color: black;
-   width: 100%;
-   height: 16vh;
-   display: flex;
-   justify-content: center;
-   position: absolute;
+// Styled Footer Footer
+export const StyledToolBar = styled(Toolbar)`
+    display: flex;
+    justify-content: space-between;;
+    background-color: black;
+    padding: 3vh;    
+    height: 60px;
+   
+   
+`
+export const FooterContainer = styled.div`
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    
+`
+export const SocialMediaContainer = styled.div`
+    display: block;
+`
+export const FooterTitle = styled.h5`
+    font-weight: bold;
+    margin: 1px;
+`
+export const SocialMediaIcon = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding:0px;
+    cursor: pointer;   
 `
 
-export const IconsSocial = styled.img`
-   width: auto; 
-   margin-top: 1%;
-   margin-right: 0%;
-   margin-left: 0%;
-   background-color: black;
-`
+
+
+
