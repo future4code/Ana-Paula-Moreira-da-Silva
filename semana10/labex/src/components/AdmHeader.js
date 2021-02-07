@@ -30,7 +30,7 @@ const AdmHeader = () => {
                 ADICIONAR VIAGEM
             </ButtonCreateTrip>
             <ButtonRegisterLogin onClick={goToSingUpPage}>
-                CADASTAR LOGIN
+                CADASTRAR LOGIN
             </ButtonRegisterLogin>
             <ButtonLogout onClick={logOut}>
                 LOGOUT

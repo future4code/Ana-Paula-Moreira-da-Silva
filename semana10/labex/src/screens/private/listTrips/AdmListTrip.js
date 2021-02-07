@@ -80,6 +80,7 @@ function ListTrip() {
                             </TripsContainer>
                         )
                     })}
+                     
                 </ListContainer>
         </>
     )

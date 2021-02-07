@@ -76,15 +76,19 @@ export const SocialMediaContainer = styled.div`
 export const FooterTitle = styled.h5`
     font-weight: bold;
     margin: 1px;
+    color:#DAA520;
+    
 `
 export const SocialMediaIcon = styled.div`
     display: flex;
     flex-direction: row;
     margin: 0px;
     padding:0px;
-    cursor: pointer;   
+    cursor: pointer;  
+    color: #DAA520; 
 `
-
-
+export const Copirigth = styled.div`
+color: #DAA520
+`
 
 

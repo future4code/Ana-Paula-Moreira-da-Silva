@@ -1,5 +1,10 @@
-import styled from 'styled-components'
-import { mainWhite, mainGray } from '../../../functional/color'
+import styled from 'styled-components';
+
+
+
+
+
+
 
 
 
@@ -28,6 +33,8 @@ export const AnimationContainer = styled.div`
 
 export const Message = styled.h1`
    color: #DAA520;
+   font-family: initial;
+
 `
 
 export const ButtonSignUp = styled.button`
@@ -35,5 +42,5 @@ export const ButtonSignUp = styled.button`
    padding: 10px;
    margin-right: 4%;
    background-color: blue;
-   color: ${mainWhite};
+  
 `

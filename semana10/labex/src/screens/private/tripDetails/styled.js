@@ -23,18 +23,20 @@ export const TitlePage = styled.h2`
 `
 
 export const Candidates = styled.div`
-  background-color: lightblue;
+  background-color: black;
   overflow: auto;
   padding-bottom: 5%;
   width: 40vw;
   max-height: 70vh;
   margin-right: 5%;
+  color: #DAA520;
 `
 
 export const AcceptedCandidates = styled.div`
-  background-color: lightblue;
+  background-color: black;
   overflow: auto;
   padding-bottom: 5%;
   width: 40vw;
   max-height: 70vh;
+  color:#DAA520;
 `

@@ -66,7 +66,7 @@ function Login() {
         />
             <br/>
         <ButtonSaveLogin onClick={newLogin}>
-            SALVAR
+            CADASTRAR
         </ButtonSaveLogin>
         </form>
         </LoginContainer>

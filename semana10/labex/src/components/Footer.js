@@ -10,6 +10,7 @@ import {
   FooterTitle,
   SocialMediaIcon,
   StyledToolBar,
+  Copirigth
  
 } from './styled'
 import FooterBar from "@material-ui/core/AppBar";
@@ -46,14 +47,14 @@ export class Footer extends React.Component {
       <div>
         <FooterBar position="sticky">
           <StyledToolBar>
-            <div>
+            
                 
-              <p> Copyright ©  Labex 2021   </p>
+              <Copirigth>Labex © 2021</Copirigth>     
               
-            </div>
+            
            
             <SocialMediaContainer>
-              <FooterTitle>Nos siga nas Redes Sociais</FooterTitle>
+              <FooterTitle>Nossas redes sociais </FooterTitle>
                  <SocialMediaIcon>
                 <FacebookIcon onClick={this.redirecionarFacebook} />
                 <TwitterIcon onClick={this.redirecionarTwitter} />

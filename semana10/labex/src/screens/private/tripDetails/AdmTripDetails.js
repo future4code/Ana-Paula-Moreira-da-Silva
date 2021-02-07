@@ -114,6 +114,7 @@ function AdmTripDetails() {
                                 <p>Profissão: {candidate.profession}</p>
                                 <p>País: {candidate.country}</p>
                                 <p>Motivo: {candidate.applicationText}</p>
+                                <br/>
                             </div>
                         )
                     })}

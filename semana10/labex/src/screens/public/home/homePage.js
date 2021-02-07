@@ -4,7 +4,8 @@ import  Header  from '../../../components/Header'
 import  Footer  from '../../../components/Footer'
 import Lottie from 'react-lottie';
 import animationData from '../../../animation/animação.json'
-import Imagem from '../../../images/imagem/espacial.jpg'
+
+
 
 
 
@@ -41,8 +42,8 @@ function HomePage(){
                     />
                     </AnimationContainer>
                    
-                    <Message>Escolhemos ir para<br/> a lua não porque é facil, 
-                        mas porque é dificil!</Message>
+                    <Message>Escolhemos ir para<br/> o espaço não porque é facil, 
+                        mas porque é dificil! <br/>Venha fazer parte dessa aventura.</Message>
                </MainContainer>
            <Footer />
         </HomeContainer>

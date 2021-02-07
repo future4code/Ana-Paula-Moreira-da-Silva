@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { mainWhite, mainOrange, mainDarkOrange, mainBlue, mainLightBlue, mainRed } from '../functional/color'
+
 
 
 export const ButtonRegister= styled.button`

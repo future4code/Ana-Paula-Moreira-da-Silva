@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {mainGray, mainDarkOrange, mainLightBlue, mainDarkGray } from '../../../functional/color'
+
 
 
 
