@@ -5,7 +5,6 @@ import {useRequestData} from "../../hooks/useRequestData"
 import {useForm} from "../../hooks/useForm"
 import CommentCard from "../../components/commentCard"
 import {createComments} from "../../services/posts"
-import {votePost} from "../../services/votes"
 import PostCard from "../../components/PostCard"
 import {PostContainer,FormContainer,TextFieldStyled,ButtonEffect,CardContainer,} from './styled'
 

@@ -7,7 +7,9 @@ export const SignupPageContainer = styled.div`
     width: 85vw;
     max-width: 465px;
     margin: 0 auto;
-    height:100vh;
+    height: 87vh;
+    
+    
 `
 
 export const FormContainer = styled.form`
@@ -16,6 +18,7 @@ export const FormContainer = styled.form`
     height: 40vh;
     justify-content: space-around;
     margin-top: 45px;
+    
 `
 export const TextFieldStyled  = styled(TextField)`
     background-color:white;

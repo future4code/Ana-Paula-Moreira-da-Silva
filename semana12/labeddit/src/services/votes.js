@@ -28,7 +28,7 @@ export const voteComments = (body, postId, commentId, getData) => {
             Authorization: token
         }
     }).then((response) => {
-        console.log("votouuuuuuu CCCC",response)
+        console.log("votouuuuuuu ",response)
         getData()
     }).catch(error => {
         console.log(error.message)

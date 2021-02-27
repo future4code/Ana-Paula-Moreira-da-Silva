@@ -10,10 +10,14 @@ import InteractiveCard from "../components/interactiveCard"
 const CardContainer = styled.div`
     display:flex;
     flex-direction:column;
-    background-color:white;
+    background-color:#9edbce;
     width:50vw;
     margin:20px;
     padding:20px;
+    div{
+    background-color:white;
+    margin:0px;
+    }
 `
 const CardName = styled.div`
     display:flex;
@@ -35,6 +39,10 @@ const CardText = styled.div`
 const InteractiveStyled = styled.div`
     display:flex;
     justify-content:space-between;
+    
+`
+const CardTotal = styled.div`
+
 `
 const PostCard = (props) => {
 
@@ -52,6 +60,8 @@ const PostCard = (props) => {
 
 
     return (
+        <div>
+            <CardTotal>
         <CardContainer >   
             <div onClick={() => goToPost(history, props.id)}>
                 <CardName>
@@ -77,6 +87,8 @@ const PostCard = (props) => {
             </InteractiveStyled>
 
         </CardContainer>
+        </CardTotal>
+        </div>
     );
 }
 

@@ -12,21 +12,23 @@ export const PostContainer = styled.div`
 export const FormContainer = styled.form`
     display: flex;
     justify-content: space-around;
-    margin:0px 10px;
+    margin:px 10px;
     align-items:center;
+    
    
 `
 
 export const TextFieldStyled  = styled(TextField)`
     background-color:white;
     width:45vw;
+    
 `
 
 export const CardContainer = styled.div`
     display:flex;
     flex-direction:column;
-    background-color:brown;
-    margin:20px;
+   margin:20px;
+  
 
     `
 export const ButtonEffect=styled.button`

@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from "styled-components"
-import {votePost} from "../services/votes"
-import fogueteDown from "../img/fogueteDown.png"
-import fogueteUp from "../img/fogueteUp.png"
-import fogueteUpGreen from "../img/fogueteUpGreen.png"
-import fogueteDownRed from "../img/fogueteDownRed.png"
+import coracaoDown from "../img/coracaoDown.png"
+import coracaoUp from "../img/coracaoUp.png"
+import coracaoUpGreen from "../img/coracaoUpGreen.png"
+import coracaoDownRed from "../img/coracaoDownRed.png"
 
 
 const CardButtons = styled.div`
@@ -19,15 +18,7 @@ const CardButtons = styled.div`
 
 function InteractiveCard(props) {
 
-//   const handleVote = (vote)=>{
-//     const body={
-//         direction:vote
-//     }
-//     console.log(props.getPost)
-//     votePost(body,props.id,props.getVote)
 
-   
-// }
 
 
 
@@ -36,17 +27,17 @@ function colorButtonAndVotes(){
     if(props.voteDirection===0){
       return(
         <CardButtons>
-        <img src={props.voteDirection===1? fogueteUpGreen : fogueteUp} onClick={()=>props.handleVote(1)}/>
+        <img src={props.voteDirection===1? coracaoUpGreen : coracaoUp} alt= "coração" onClick={()=>props.handleVote(1)}/>
         <p>{props.voteCount}</p>
-        <img src={fogueteDown} onClick={()=>props.handleVote(-1)}/>
+        <img src={coracaoDown} alt= "coração" onClick={()=>props.handleVote(-1)}/>
         </CardButtons> 
       )
     }else{
       return(
         <CardButtons>
-        <img src={props.voteDirection===1? fogueteUpGreen : fogueteUp} onClick={()=>props.handleVote(0)}/>
+        <img src={props.voteDirection===1? coracaoUpGreen : coracaoUp} alt= "coração" onClick={()=>props.handleVote(0)}/>
         <p>{props.voteCount}</p>
-        <img src={props.voteDirection===-1? fogueteDownRed : fogueteDown} onClick={()=>props.handleVote(0)}/>
+        <img src={props.voteDirection===-1? coracaoDownRed : coracaoDown} alt= "coração" onClick={()=>props.handleVote(0)}/>
         </CardButtons> 
       )
     }

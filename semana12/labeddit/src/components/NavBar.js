@@ -13,24 +13,26 @@ const NavBarContainer = styled.div`
    align-items: center;
     img{
         height:80px;
-        width:500px;
+        width:400px;
+        
     }
 `
 const ButtonEffect=styled.button`
-  border-radius:60%;
+  
   margin-right:40px;
   z-index: 1;
   position: relative;
   font-size: inherit;
   font-family: inherit;
   color: white;
-  padding: 0.5em 1em;
+  padding: 0.7em 1em;
   outline: none;
   border: none;
+  border-radius:20%;
   background-color: #13d631;
 ::before {
   content: '';
-  border-radius:60%;
+  border-radius:20%;
   z-index: -1;
   position: absolute;
   top: 0;
