@@ -1,0 +1,17 @@
+{
+  "name": "package2",
+  "version": "1.0.0",
+  "description": "exercicio2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exercicio2.js"
+
+  },
+  "keywords": [
+    "npm",
+    "epps"
+  ],
+  "author": "Ana Paula",
+  "license": "ISC"
+}
