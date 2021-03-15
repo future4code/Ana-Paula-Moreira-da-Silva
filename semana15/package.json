@@ -1,0 +1,16 @@
+{
+  "name": "semana15",
+  "version": "1.0.0",
+  "description": "aprendendo node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exercicio1.js"
+  },
+  "keywords": [
+    "npm",
+    "epps"
+  ],
+  "author": "Ana Paula",
+  "license": "ISC"
+}
