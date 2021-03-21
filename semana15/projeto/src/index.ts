@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-//cadastrar usuário
+//cadastrar usuário..
 app.post("/users/register", (req: Request, res: Response) => {
   let errorCode: number = 400;
 
@@ -54,7 +54,7 @@ app.post("/users/register", (req: Request, res: Response) => {
   }
 });
 
-//pegar todos usuários existentes
+//pegar todos usuários existentes..
 app.get("/users/all", (req: Request, res: Response) => {
   let errorCode: number = 400;
 
@@ -81,7 +81,7 @@ app.put("/users/balance", (req: Request, res: Response) => {
 
       throw new Error("Não há usuários ou usuário não encontrado");
     }
-    //adicionar saldo
+    //adicionar saldo..
     if (req.body.balance < users[result].balance) {
       throw new Error("você não pode negativar o saldo por este endpoint");
     } else if (req.body.balance > users[result].balance && req.body.name) {
@@ -100,7 +100,7 @@ app.put("/users/balance", (req: Request, res: Response) => {
   }
 });
 
-//pagamento de conta
+//pagamento de conta..
 app.post("/users/pay", (req: Request, res: Response) => {
   let errorCode: number = 400;
   try {
@@ -110,7 +110,7 @@ app.post("/users/pay", (req: Request, res: Response) => {
       
     }
 
-    //validando data
+    //validando data..
     if (req.body.date === undefined || !req.body.date) {
       const date = new Date();
       const dateFormat =
@@ -138,7 +138,7 @@ app.post("/users/pay", (req: Request, res: Response) => {
       pay.description = "sem descrição";
     }
 
-    //procurar o usuário
+    //procurar o usuário..
     const result = users.findIndex((user) => {
       return req.body.CPF === user.CPF;
     });
@@ -172,7 +172,7 @@ app.post("/users/pay", (req: Request, res: Response) => {
   }
 });
 
-//transferência interna
+//transferência interna..
 app.put("/users/transfer", (req: Request, res: Response) => {
   let errorCode: number = 400
 
